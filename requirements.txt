@@ -1,0 +1,4 @@
+-e .
+aws_cdk.aws_s3_assets
+aws_cdk.aws_elasticbeanstalk
+aws_cdk.aws_iam
