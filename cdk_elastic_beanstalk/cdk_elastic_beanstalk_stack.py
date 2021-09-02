@@ -10,8 +10,7 @@ from aws_cdk import core as cdk
 
 class CdkElasticBeanstalkStack(cdk.Stack):
     def __init__(
-        self, scope: cdk.Construct, construct_id: str, **kwargs
-    ) -> None:
+        self, scope: cdk.Construct, construct_id: str, **kwargs) -> None:
         super().__init__(scope, construct_id, **kwargs)
 
         # Get the path to the JAR file from context
